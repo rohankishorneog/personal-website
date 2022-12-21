@@ -91,32 +91,43 @@
 /*technology section*/
 
 .tech-div{
-    background-image: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg);
+    /*background-image: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg);*/
+    background-color: rgb(0, 0, 0);
+    border-radius: 4rem;
+    border:rgb(214, 199, 199) solid ;
     padding: 100px;
     margin: 20px;
     background-size: cover;
+    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
   
 }
 
 
 .project-div{
-    background-image: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg);
+    background-color: black;
+    border-radius: 4rem;
+    border:rgb(214, 199, 199) solid ;
     padding: 100px;
     margin: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
+    background-size: cover;
+    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
    
 }
 
 
 .blog-div{
-    background-image: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg);
+    background-color: black;
+    border-radius: 4rem;
     padding: 100px;
     margin: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
+    background-size: cover;
+    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
    
 }
 
@@ -124,6 +135,7 @@
     color:white;
     text-align: center;
     font-family: monospace;
+    justify-content: center;
 }
 
 .center-text p{
@@ -131,10 +143,12 @@
 }
 
 .primary-link{
+    
     text-decoration: none;
     background-color: white;
-    color: black;
+    color: rgb(5, 5, 5);
     font-family: century;
+    border-radius: 0.2rem;
 }
 
 .primary-link:hover{
@@ -142,3 +156,4 @@
     color: white;
     box-shadow: 0 0 10px white;
 }
+

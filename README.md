@@ -7,9 +7,7 @@
                 <h4>Portfolio</h4>
                 <p>My portfolio website is a project that I developed to showcase my skills and accomplishments as a web
                     developer. The goal of the website is to demonstrate my expertise in web dev skills and to provide
-                    potential clients or employers with a clear and concise overview of my work.
-
-                </p>
+                    potential clients or employers with a clear and concise overview of my work.</p>
             </div>
             <div id="block-btn">
                 <button id="live-btn"

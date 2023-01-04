@@ -1,159 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kanit:wght@200&family=Roboto:wght@100&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    background-color: #F3F3F3 ;
+    font-family: "kanit","Roboto";
 }
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
-    top: 0;
+    margin-bottom: 13rem;
 }
-.navbar ul{
+
+.nav-head{
     display: flex;
-    list-style: none;
-    margin: 20px 0px;
-}
-
-.navbar div{
-    color: white;
-    font-size: larger;
-   
-    
-}
-.navbar ul li{
-    font-family: century;
-    font-size: 1.1 rem;
-    font-weight: bold;
-   
-    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top:15px;
+    padding-left: 10%;
 
 }
+.nav-head h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
 
-.navbar ul li a{
+
+.nav-links{
+    padding-right: 10%;
+}
+
+.nav-links-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-item{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.links{
     text-decoration: none;
-    color: white;
-    padding: 8px 25px;
-    transition: all .5s ease;
-
-}
-
-.navbar ul li a:hover{
-    background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
-
 }
 
-/* HOME SECTION*/
-.home{
+
+/*styling on the main div*/
+
+
+.main-div{
     display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 740px;
-    justify-content: center;
-    align-items: center;
-    color: white;
-
-
 
 }
 
-.home::before{
-    content: "";
-    position: absolute;
-    top:0;
-    right: 0;
-    background: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg)no-repeat center center/cover;
-    height: 800px;
-    width: 100%;
-    z-index: -1;
-    opacity: .8;
-}
-.main{
+.img-div{
+    width: 50%;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-   /** border: 1px solid white;**/
-    
+    justify-content: end;
+}
+.main-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: contain ;
+    object-position: 50%;
 }
 
-
-.headings{
-    font-family: century;
-    font-size: 2rem;
-    margin: 40px 0px;
-    text-align: center;
+.text-div{
+    height: auto;
+    width: 50%;
+}
+.texts{
+    width: 350px;
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+.texts h1{
+    font-size: 100px;
+}
+.texts h3{
+    font-size: 30px;
+}
+.texts-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    width: 350px;
+}
+.btn{
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor:grab;
+    border-style: none;
+    font-weight: 550;
+}
+#btn-resume{
+    background-color: #EEA302;
+}
+#btn-projects{
+    background-color: #FF3B25;
+}
+#btn-blogs{
+    background-color:#80D8DA ;
 }
 
-/*technology section*/
+/*styling for footer*/
 
-.tech-div{
-    /*background-image: url(images/andrew-neel-jtsW--Z6bFw-unsplash.jpg);*/
-    background-color: rgb(0, 0, 0);
-    border-radius: 4rem;
-    border:rgb(214, 199, 199) solid ;
-    padding: 100px;
-    margin: 20px;
-    background-size: cover;
-    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
-  
+.footer{
+    margin: 20rem 4rem 4rem 4rem
 }
 
-
-.project-div{
-    background-color: black;
-    border-radius: 4rem;
-    border:rgb(214, 199, 199) solid ;
-    padding: 100px;
-    margin: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
-    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
-   
+.footer-elements{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 25px;
+}
+.footer h3{
+    font-size: 15px;
 }
 
+/*styling for logos*/
 
-.blog-div{
-    background-color: black;
-    border-radius: 4rem;
-    padding: 100px;
-    margin: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
-    box-shadow: 0 0 15px 10px rgb(49, 47, 47);
-   
+.logo-div{
+    display: flex;
 }
-
-.center-text{
-    color:white;
-    text-align: center;
-    font-family: monospace;
-    justify-content: center;
+.logo-img{
+    width: 20px;
+    padding-left: 10px
 }
-
-.center-text p{
-    font-size: x-large;
-}
-
-.primary-link{
-    
-    text-decoration: none;
-    background-color: white;
-    color: rgb(5, 5, 5);
-    font-family: century;
-    border-radius: 0.2rem;
-}
-
-.primary-link:hover{
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 10px white;
-}
-

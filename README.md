@@ -10,10 +10,7 @@
                     potential clients or employers with a clear and concise overview of my work.</p>
             </div>
             <div id="block-btn">
-                <button id="live-btn"
-                    onclick="window.open('https://rohankishorneog.netlify.app')">Live</button>
-                <button id="code-btn"
-                    onclick="window.open('https://github.com/rohankishorneog/personal-website')">Source</button>
+                    <a  class="button" href='https://rohankishorneog.netlify.app'>Live</a>
             </div>
         </div>
         <div class="block-img"><img src="neogProjectsImages/mark5.jpg" alt=""></div>
